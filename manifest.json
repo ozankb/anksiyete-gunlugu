@@ -1,7 +1,7 @@
 {
-  "name": "Sakin — Haftalık Anksiyete Günlüğü",
-  "short_name": "Sakin",
-  "description": "Haftalık anksiyete, uyku ve stres düzeyini takip eden kişisel günlük uygulaması.",
+  "name": "Anksiyete Günlüğü",
+  "short_name": "Anksiyete Günlüğü",
+  "description": "Anksiyete, tetikleyici, fiziksel belirti ve baş etme yöntemlerini kaydeden, ilerlemeni gösteren kişisel günlük uygulaması.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -9,6 +9,7 @@
   "theme_color": "#8b85c4",
   "orientation": "portrait",
   "lang": "tr",
+  "categories": ["health", "lifestyle", "medical"],
   "icons": [
     {
       "src": "icon-192.png",
@@ -17,19 +18,19 @@
       "purpose": "any"
     },
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
       "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icon-512.png",
+      "src": "icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
